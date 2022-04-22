@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="ÁFA">
+    <meta charset="utf-8">
+	  <meta name="theme-color" content="#0fe60e">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculate VAT</title>
+  </head>
+  <body>
+	    <h1>Calculate VAT</h1>
+
+    <form class="form">
+	    <label for="net">Net Amount:</label>
+      <input type="text" id="net" autocomplete="off" onclick="this.value = '';" value="1000" maxlength="10">
+	    <label for="vat">NET %:</label>
+      <input type="text" id="vat" value="27" maxlength="6">
+	    <button class="button" type="button" id="gomb">Calculate!</button>
+      <br><br>
+      Gross Amount:
+      <input type="text" id="res" disabled>
+    </form>
+    <script src="myscript.js"></script>
+  </body>
+</html>
