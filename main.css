@@ -20,7 +20,7 @@
       text-align:center;
       margin-top:2rem;
     font-size: 2rem;
-    background:repeating-linear-gradient(-45deg,yellow,green);
+    background:repeating-linear-gradient(-45deg,yellow, lime, green);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: slide 20s linear infinite;

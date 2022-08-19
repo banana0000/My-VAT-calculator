@@ -9,6 +9,7 @@ sumFunction = function() {
   res.value = (net.value * (vat.value / 100 + 1));
 } 
 
+
 btn.addEventListener('click', sumFunction);
 
 
